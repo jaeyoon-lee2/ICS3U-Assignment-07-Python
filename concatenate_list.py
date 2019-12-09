@@ -1,12 +1,12 @@
 #!/user/bin/env python3
 
 # Created by: Jaeyoon (Jay) Lee
-# Created on: Nov 2019
-# This program displays 10 random number with the array
+# Created on: Dec 2019
+# This program concatenate two lists
 
 
 def main():
-    # this function displays 10 random number with the array
+    # this function concatenate two lists
 
     first_list = []
     second_list = []
