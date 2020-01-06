@@ -5,11 +5,20 @@
 # This program concatenate two lists
 
 
-def main():
+def concatenate_list(first_things, second_things):
     # this function concatenate two lists
-
     first_list = []
     second_list = []
+    concatenated_list = []
+
+    first_list = first_things.split(" ")
+    second_list = second_things.split(" ")
+    concatenated_list = first_list + second_list
+
+    return concatenated_list
+
+
+def main():
     concatenated_list = []
 
     # input
@@ -22,9 +31,7 @@ def main():
                           "space): ".format(second_list_name))
 
     print("")
-    first_list = first_things.split(" ")
-    second_list = second_things.split(" ")
-    concatenated_list = first_list + second_list
+    concatenated_list = concatenate_list(first_things, second_things)
 
     print("{0} are".format(concatenated_list_name))
 
